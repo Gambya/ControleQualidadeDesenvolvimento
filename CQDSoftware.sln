@@ -3,29 +3,29 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalQualidade.Domain", "PortalQualidade.Domain\PortalQualidade.Domain.csproj", "{FA22F54A-7E0F-40B5-985A-E5971B1470B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQDSoftware.Domain", "PortalQualidade.Domain\CQDSoftware.Domain.csproj", "{FA22F54A-7E0F-40B5-985A-E5971B1470B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalQualidade.Domain.Tests", "PortalQualidade.Domain.Tests\PortalQualidade.Domain.Tests.csproj", "{4D3900CC-9C0C-49EE-89D7-E1461777E2B3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQDSoftware.Domain.Tests", "PortalQualidade.Domain.Tests\CQDSoftware.Domain.Tests.csproj", "{4D3900CC-9C0C-49EE-89D7-E1461777E2B3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalQualidade.Infrastructure", "PortalQualidade.Infra.Repositories\PortalQualidade.Infrastructure.csproj", "{EA215A44-05F4-4162-A26A-19369C8FC4C8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQDSoftware.Infrastructure", "PortalQualidade.Infra.Repositories\CQDSoftware.Infrastructure.csproj", "{EA215A44-05F4-4162-A26A-19369C8FC4C8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalQualidade.Infrastructure.Tests", "PortalQualidade.Repositories.Tests\PortalQualidade.Infrastructure.Tests.csproj", "{2870AC1B-9C4C-4D29-B011-53AA1EC84688}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQDSoftware.Infrastructure.Tests", "PortalQualidade.Repositories.Tests\CQDSoftware.Infrastructure.Tests.csproj", "{2870AC1B-9C4C-4D29-B011-53AA1EC84688}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalQualidade.Application", "PortalQualidade.Application\PortalQualidade.Application.csproj", "{B81E2223-811E-4D9D-A49C-269C19D8DE7C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQDSoftware.Application", "PortalQualidade.Application\CQDSoftware.Application.csproj", "{B81E2223-811E-4D9D-A49C-269C19D8DE7C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalQualidade.Application.Tests", "PortalQualidade.Application.Tests\PortalQualidade.Application.Tests.csproj", "{891207CB-F47F-4880-98FA-88947EE429D2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQDSoftware.Application.Tests", "PortalQualidade.Application.Tests\CQDSoftware.Application.Tests.csproj", "{891207CB-F47F-4880-98FA-88947EE429D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalQualidade.Helpers", "PortalQualidade.Helpers\PortalQualidade.Helpers.csproj", "{13F2754D-2079-4585-BF45-F091EE2CB193}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQDSoftware.Helpers", "PortalQualidade.Helpers\CQDSoftware.Helpers.csproj", "{13F2754D-2079-4585-BF45-F091EE2CB193}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalQualidade.Helpers.Tests", "PortalQualidade.Helpers.Tests\PortalQualidade.Helpers.Tests.csproj", "{638FF953-8405-4650-B7C7-FC76FDCFAECC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQDSoftware.Helpers.Tests", "PortalQualidade.Helpers.Tests\CQDSoftware.Helpers.Tests.csproj", "{638FF953-8405-4650-B7C7-FC76FDCFAECC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalQualidade.UI", "PortalQualidade.UI\PortalQualidade.UI.csproj", "{BADB06D5-A99E-4BE5-8BB7-980E8C5F4917}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQDSoftware.UI", "PortalQualidade.UI\CQDSoftware.UI.csproj", "{BADB06D5-A99E-4BE5-8BB7-980E8C5F4917}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalQualidade.UI.Tests", "PortalQualidade.UI.Tests\PortalQualidade.UI.Tests.csproj", "{5B1FDB0C-2BC7-446A-B370-F03A41B8DD02}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQDSoftware.UI.Tests", "PortalQualidade.UI.Tests\CQDSoftware.UI.Tests.csproj", "{5B1FDB0C-2BC7-446A-B370-F03A41B8DD02}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalQualidade.StartUp", "PortalQualidade.StartUp\PortalQualidade.StartUp.csproj", "{42446784-717C-4ED7-934D-58B11FD8B5BA}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQDSoftware.StartUp", "PortalQualidade.StartUp\CQDSoftware.StartUp.csproj", "{42446784-717C-4ED7-934D-58B11FD8B5BA}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortalQualidade.StartUp.Tests", "PortalQualidade.StartUp.Tests\PortalQualidade.StartUp.Tests.csproj", "{D66E26BB-66A8-4B17-85FE-8E4FC75749E6}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQDSoftware.StartUp.Tests", "PortalQualidade.StartUp.Tests\CQDSoftware.StartUp.Tests.csproj", "{D66E26BB-66A8-4B17-85FE-8E4FC75749E6}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

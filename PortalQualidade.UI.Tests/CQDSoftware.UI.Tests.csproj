@@ -91,9 +91,9 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PortalQualidade.UI\PortalQualidade.UI.csproj">
+    <ProjectReference Include="..\PortalQualidade.UI\CQDSoftware.UI.csproj">
       <Project>{BADB06D5-A99E-4BE5-8BB7-980E8C5F4917}</Project>
-      <Name>PortalQualidade.UI</Name>
+      <Name>CQDSoftware.UI</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />

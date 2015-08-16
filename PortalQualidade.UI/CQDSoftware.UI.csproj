@@ -225,17 +225,17 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\PortalQualidade.Application\PortalQualidade.Application.csproj">
+    <ProjectReference Include="..\PortalQualidade.Application\CQDSoftware.Application.csproj">
       <Project>{b81e2223-811e-4d9d-a49c-269c19d8de7c}</Project>
-      <Name>PortalQualidade.Application</Name>
+      <Name>CQDSoftware.Application</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PortalQualidade.Domain\PortalQualidade.Domain.csproj">
+    <ProjectReference Include="..\PortalQualidade.Domain\CQDSoftware.Domain.csproj">
       <Project>{fa22f54a-7e0f-40b5-985a-e5971b1470b3}</Project>
-      <Name>PortalQualidade.Domain</Name>
+      <Name>CQDSoftware.Domain</Name>
     </ProjectReference>
-    <ProjectReference Include="..\PortalQualidade.Helpers\PortalQualidade.Helpers.csproj">
+    <ProjectReference Include="..\PortalQualidade.Helpers\CQDSoftware.Helpers.csproj">
       <Project>{13f2754d-2079-4585-bf45-f091ee2cb193}</Project>
-      <Name>PortalQualidade.Helpers</Name>
+      <Name>CQDSoftware.Helpers</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
