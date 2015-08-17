@@ -61,11 +61,56 @@ namespace PortalQualidade.Domain.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Typed passwords do not match.
+        /// </summary>
+        internal static string InvalidConfirmaPassword {
+            get {
+                return ResourceManager.GetString("InvalidConfirmaPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid Confirm Password.
+        /// </summary>
+        internal static string InvalidConfirmaPasswordNullOrEmpty {
+            get {
+                return ResourceManager.GetString("InvalidConfirmaPasswordNullOrEmpty", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Invalid E-mail.
         /// </summary>
         internal static string InvalidEmail {
             get {
                 return ResourceManager.GetString("InvalidEmail", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid Nome.
+        /// </summary>
+        internal static string InvalidNome {
+            get {
+                return ResourceManager.GetString("InvalidNome", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Invalid Password.
+        /// </summary>
+        internal static string InvalidPassword {
+            get {
+                return ResourceManager.GetString("InvalidPassword", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized string similar to Caracters quantity greater than allowable minimum of 6 characters..
+        /// </summary>
+        internal static string InvalidPasswordMinLenght {
+            get {
+                return ResourceManager.GetString("InvalidPasswordMinLenght", resourceCulture);
             }
         }
     }

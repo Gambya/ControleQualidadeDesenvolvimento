@@ -117,7 +117,22 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="InvalidConfirmaPassword" xml:space="preserve">
+    <value>Senhas digitadas não coincidem.</value>
+  </data>
+  <data name="InvalidConfirmaPasswordNullOrEmpty" xml:space="preserve">
+    <value>ConfirmaPassword Inválido.</value>
+  </data>
   <data name="InvalidEmail" xml:space="preserve">
     <value>Email inválido.</value>
+  </data>
+  <data name="InvalidNome" xml:space="preserve">
+    <value>Nome Inválido.</value>
+  </data>
+  <data name="InvalidPassword" xml:space="preserve">
+    <value>Senha Inválida.</value>
+  </data>
+  <data name="InvalidPasswordMinLenght" xml:space="preserve">
+    <value>Quantidade de caracters maiores que o mínimo permitido de 6 caracteres.</value>
   </data>
 </root>
