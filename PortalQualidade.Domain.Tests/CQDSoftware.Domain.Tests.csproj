@@ -9,8 +9,9 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>PortalQualidade.Domain.Tests</RootNamespace>
     <AssemblyName>PortalQualidade.Domain.Tests</AssemblyName>
-    <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,12 +45,17 @@
     <Compile Include="Entities\UsuarioTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ValueObjects\EmailTests.cs" />
+    <Compile Include="ValueObjects\PasswordTests.cs" />
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
     <ProjectReference Include="..\PortalQualidade.Domain\CQDSoftware.Domain.csproj">
       <Project>{fa22f54a-7e0f-40b5-985a-e5971b1470b3}</Project>
       <Name>CQDSoftware.Domain</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\PortalQualidade.Helpers\CQDSoftware.Helpers.csproj">
+      <Project>{13F2754D-2079-4585-BF45-F091EE2CB193}</Project>
+      <Name>CQDSoftware.Helpers</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
