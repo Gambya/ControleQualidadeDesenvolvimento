@@ -1,7 +1,6 @@
 ﻿using System;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using PortalQualidade.Domain.Entities;
-using PortalQualidade.Domain.ValueObjects;
 
 namespace PortalQualidade.Domain.Tests.Entities
 {
@@ -9,7 +8,7 @@ namespace PortalQualidade.Domain.Tests.Entities
     public class UsuarioTests
     {
         public string Nome { get; set; }
-        public Email EMail { get; set; }
+        public string EMail { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
         public string ConfirmaPassword { get; set; }
@@ -20,7 +19,7 @@ namespace PortalQualidade.Domain.Tests.Entities
         public UsuarioTests()
         {
             Nome = "Roberto";
-            EMail = new Email("robertolopesramos@gmail.com");
+            EMail = "robertolopesramos@gmail.com";
             Login = "Beto";
             Password = "123456";
             ConfirmaPassword = "123456";
@@ -49,15 +48,39 @@ namespace PortalQualidade.Domain.Tests.Entities
         }
         [TestMethod]
         [ExpectedException(typeof(Exception))]
+        public void UsuarioPasswordObrigatorio()
+        {
+            new Usuario(Nome, EMail, Login, "", ConfirmaPassword, Departamento, Nivel, Flag);
+        }
+        [TestMethod]
+        [ExpectedException(typeof(Exception))]
         public void UsuarioConfirmaPasswordObrigatorio()
         {
             new Usuario(Nome, EMail, Login, Password, "", Departamento, Nivel, Flag);
         }
         [TestMethod]
-        [ExpectedException(typeof(Exception))]
-        public void UsuarioDepartamentoObrigatorio()
+        public void UsuarioNewNome()
         {
-            new Usuario(Nome, EMail, Login, Password, ConfirmaPassword, "", Nivel, Flag);
+            var usuario = new Usuario(Nome, EMail, Login, Password, ConfirmaPassword, Departamento, Nivel, Flag);
+            Assert.AreEqual(Nome, usuario.Nome);
+        }
+        [TestMethod]
+        public void UsuarioNewEmail()
+        {
+            var usuario = new Usuario(Nome, EMail, Login, Password, ConfirmaPassword, Departamento, Nivel, Flag);
+            Assert.AreEqual(EMail, usuario.EMail.EMail);
+        }
+        [TestMethod]
+        public void UsuarioNewLogin()
+        {
+            var usuario = new Usuario(Nome, EMail, Login, Password, ConfirmaPassword, Departamento, Nivel, Flag);
+            Assert.AreEqual(Login, usuario.Login);
+        }
+        [TestMethod]
+        public void UsuarioNewDepartamento()
+        {
+            var usuario = new Usuario(Nome, EMail, Login, Password, ConfirmaPassword, Departamento, Nivel, Flag);
+            Assert.AreEqual(Departamento, usuario.Departamento);
         }
     }
 }
