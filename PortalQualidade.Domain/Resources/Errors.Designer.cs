@@ -88,6 +88,15 @@ namespace PortalQualidade.Domain.Resources {
         }
         
         /// <summary>
+        ///   Looks up a localized string similar to Invalid Login.
+        /// </summary>
+        internal static string InvalidLogin {
+            get {
+                return ResourceManager.GetString("InvalidLogin", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Looks up a localized string similar to Invalid Nome.
         /// </summary>
         internal static string InvalidNome {
